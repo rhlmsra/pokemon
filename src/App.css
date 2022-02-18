@@ -24,6 +24,23 @@
   color: white;
 }
 
+.user-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.info-item {
+  width: 15vw;
+  height: 5vh;
+  padding: 2em;
+  border: 2px solid rgb(159, 12, 22);
+  align-self: center;
+  background-color: #63b7af;
+  border-radius: 2em;
+}
+
 .App-link {
   color: #61dafb;
 }
